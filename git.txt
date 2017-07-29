@@ -1,0 +1,9 @@
+:: set config & credential for each project ::
+
+git config --list // check config
+
+git config user.email "email@example.com"
+git config user.name "your-username-github"
+
+
+git config credential.https://github.com.username <your_username> // remember username
